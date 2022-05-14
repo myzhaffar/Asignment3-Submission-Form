@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,500&display=swap");
+
+body {
+  margin: auto;
+  font-family: "Poppins", sans-serif;
+  background-color: lightgray;
+}
+
+nav {
+  background-color: rgb(235, 233, 235);
+  height: 7vh;
+  display: flex;
+}
+
+nav div {
+  display: flex;
+  align-items: center;
+}
+
+nav .left-side {
+  flex: 50%;
+  /* padding-left: 90px; */
+}
+
+nav .right-side {
+  flex: 50%;
+  /* padding-right: 90px; */
+  justify-content: flex-end;
+}
+
+nav ul {
+  list-style-type: none;
+  margin-left: 40px;
+}
+
+nav ul li {
+  display: inline;
+  margin-left: 40px;
+}
+
+nav ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+nav ul li a.active {
+  color: #ec4d37;
+  font-weight: 650;
+}
+
+nav .right-side a {
+  font-size: 17px;
+  padding: 8px 20px;
+  background-color: black;
+  border: none;
+  border-radius: 15px;
+  color: white;
+  text-decoration: none;
+}
+
+.personal {
+  height: 93vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(200, 200, 200);
+  flex-direction: column;
+}
+
+button {
+  float: right;
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 8px 30px;
+  border-radius: 15px;
+  cursor: pointer;
+  margin-top: 15px;
+  font-family: "Poppins", sans-serif;
+}
